@@ -1,6 +1,6 @@
 # ESP32 Home Automation Web Server
 
-This project uses an ESP32 microcontroller to create a web-based home automation system. It reads temperature and humidity from a DHT11 sensor and allows manual and automatic control of a fan and bulb using relay modules. A live dashboard is generated with SVG gauges for a responsive UI.
+> This project uses an ESP32 microcontroller to create a web-based home automation system. It reads temperature and humidity from a DHT11 sensor and allows manual and automatic control of a fan and bulb using relay modules. A live dashboard is generated with SVG gauges for a responsive UI.
 
 ---
 
@@ -32,6 +32,7 @@ This project uses an ESP32 microcontroller to create a web-based home automation
 
 ### **Connections**
 
+```
 [ESP32] [Relay Module]
 GPIO 5 ------> IN1 (Fan)
 GPIO 12 ------> IN2 (Bulb)
@@ -41,6 +42,7 @@ VCC ------> 3.3V
 GND ------> GND
 Data ------> GPIO 2
 
+```
 
 ---
 
@@ -71,9 +73,9 @@ Data ------> GPIO 2
 
 ---
 
-## 📄 License
-
-This project is open source and available under the **MIT License**.
+## 📝 License
+- This project is licensed under the MIT License — feel free to use, modify, and share it.
+- Just don’t forget to give us credit!
 
 ---
 
